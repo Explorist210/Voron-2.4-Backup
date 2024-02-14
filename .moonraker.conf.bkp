@@ -38,6 +38,10 @@ type = web
 repo = cadriel/fluidd
 path = ~/fluidd
 
+[spoolman]
+server = http://192.168.1.41:7912/
+sync_rate = 5
+
 [update_manager led_effect]
 type = git_repo
 path = ~/klipper-led_effect
